@@ -4,7 +4,7 @@
 ```
 cd node_backend
 npm install
-node app.s
+node app.js
 ```
 
 ## run angular app
