@@ -1,0 +1,29 @@
+{
+  "name": "mean-bootstrap-bp",
+  "authors": [
+    "Perry Haldenby <perry.haldenby@gmail.com>"
+  ],
+  "description": "Angular Node Mongo Boilerplate with Bootstrap",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "node",
+    "angular",
+    "mongodb",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8",
+    "jquery": "~2.1.4"
+  }
+}

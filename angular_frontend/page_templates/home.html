@@ -1,0 +1,29 @@
+<h1>Home Page</h1>
+
+<div style="background-color: lightgray; padding: 10px;">
+<h2>Initialization Data:</h2>
+<p>{{initializationData}}
+</div>
+
+<div style="background-color: lightblue; padding: 10px;">
+<h2>Data from node api (refresh to check for new data):</h2>
+<p>{{testData}}
+</div>
+
+<div style="background-color: lightgray; padding: 10px;">
+<h2>Add new data via node api:</h2>
+<form role="form">
+  <div class="form-group">
+    <label for="name">Email:</label>
+    <input type="text" class="form-control" ng-model="user.name" id="name" placeholder="Enter your name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" ng-model="user.email" id="email" placeholder="Enter email">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox" ng-model="user.lovesmean">I love MEAN with bootstrap</label>
+  </div>
+  <button ng-click="postData(user)" class="btn btn-default">Submit</button>
+</form>
+</div>
